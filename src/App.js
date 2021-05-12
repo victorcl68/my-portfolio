@@ -6,7 +6,7 @@ function App() {
       <h1 id="title">Victor Cabrera Lopes Cardoso</h1>
       <h2 id="subtitle">Desde pequeno sou apaixonado por Tecnologia. <br/> Estudo Desenvolvimento Web na Trybe. <br/> Tenho conhecimento em Front-End, especialmente com a tecnologia React.js <br/> e um nível de Inglês Intermediário. <br/> Acredito e trabalho para poder fazer diferença positiva na vida das pessoas.</h2>
       <div id="image">
-        <img id="my-photo" src="../images/my-photo.jpeg" alt="Photography of myself" />
+        <img id="my-photo" src="https://avatars.githubusercontent.com/u/78442423?v=4" alt="Photography of myself" />
       </div>
       <div id="uls">
         <ul id="projects">
