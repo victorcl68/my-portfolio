@@ -1,38 +1,81 @@
-.App {
+body {
+  background-color:rgb(144, 189, 179);
+}
+
+#title {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#subtitle {
+  text-align: center;
+  line-height: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#image {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#my-photo {
+  width: 350px;
+  border-radius: 25px;
+  border-color:rgb(60, 97, 92);;
+  border-width: 4px;
+  border-style: solid;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.abilitie {
+  font-size: 17px;
+  list-style: none;
+  line-height: 25px;
+}
+
+#abilities, #projects  {
+  display: inline-block;
+}
+
+#projects {
+  list-style: none;
+}
+
+#uls {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(90, 38, 136);
+}
+
+.projectItem {
+  margin-top: 5px;
+}
+
+#contact {
+  font-size: 21px;
+  text-align: center;
+  font-weight: bold;
+  margin: 3px;
+}
+
+.linkedin {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 8px;
+}
+
+#email, #gmail {
+  text-align: center;
+  font-size: 18px;
+  line-height: 5px;
+}
+
+#email {
+  font-weight: bold;
+  font-style:italic;
+}
+
+#gmail {
+  color: midnightblue;
 }
