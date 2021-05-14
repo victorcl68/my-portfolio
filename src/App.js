@@ -14,6 +14,7 @@ function App() {
           <li><a href="https://victorcl68.github.io/project-lessons-learned/" ><h3 className="projectItem"> Lessons learned </h3></a></li>
           <li><a href="https://victorcl68.github.io/project-pixels-art/" ><h3 className="projectItem"> Pixels Art </h3></a></li>
           <li><a href="https://victorcl68.github.io/movie-cards-library/" ><h3 className="projectItem"> Movie Cards Library </h3></a></li>
+          <li><a href="https://victorcl68.github.io/project-todo-list/" ><h3 className="projectItem"> To-Do List </h3></a></li>
         </ul>
         <ul id="abilities">
           <h3 id="main-abilities"> Principais Habilidades </h3>
