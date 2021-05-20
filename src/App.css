@@ -17,21 +17,17 @@ body {
 }
 
 #my-photo {
-  width: 350px;
+  width: 325px;
   border-radius: 25px;
   border-color:rgb(60, 97, 92);;
-  border-width: 4px;
+  border-width: 5px;
   border-style: solid;
 }
 
 .abilitie {
-  font-size: 17px;
+  font-size: 20x;
   list-style: none;
   line-height: 25px;
-}
-
-#abilities, #projects  {
-  display: inline-block;
 }
 
 #projects {
@@ -53,7 +49,7 @@ a {
 }
 
 #contact {
-  font-size: 21px;
+  font-size: 20px;
   text-align: center;
   font-weight: bold;
   margin: 3px;
