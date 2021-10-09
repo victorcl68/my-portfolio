@@ -1,5 +1,11 @@
 body {
   background-color:rgb(144, 189, 179);
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(90, 38, 136);
 }
 
 #title {
@@ -7,27 +13,21 @@ body {
 }
 
 #subtitle {
-  text-align: center;
   line-height: 30px;
+  text-align: center;
 }
 
 #image {
-  display: flex;
-  justify-content: center;
+  display: inline-flex;
 }
 
 #my-photo {
-  width: 325px;
-  border-radius: 25px;
   border-color:rgb(60, 97, 92);;
-  border-width: 5px;
+  border-radius: 25px;
   border-style: solid;
-}
-
-.abilitie {
-  font-size: 20x;
-  list-style: none;
-  line-height: 25px;
+  border-width: 5px;
+  margin-top: 20px;
+  width: 325px;
 }
 
 #projects {
@@ -39,39 +39,33 @@ body {
   justify-content: center;
 }
 
-a {
-  text-decoration: none;
-  color: rgb(90, 38, 136);
-}
-
-.projectItem {
-  margin-top: 5px;
-}
-
 #contact {
-  font-size: 20px;
-  text-align: center;
+  display: flex;
+  font-size: 28px;
   font-weight: bold;
+  justify-content: center;
   margin: 3px;
 }
 
-.linkedin {
-  text-align: center;
-  font-size: 18px;
-  margin-top: 8px;
+.text-content {
+  display: inline-flex;
+  flex-direction: column;
+  margin-right: 15px;
+  vertical-align: top;
 }
 
-#email, #gmail {
-  text-align: center;
-  font-size: 18px;
-  line-height: 5px;
+.item {
+  font-size: 20px;
+  list-style: none;
+  margin-bottom: 19px;
 }
 
-#email {
-  font-weight: bold;
-  font-style:italic;
-}
-
-#gmail {
+.links {
   color: midnightblue;
+  display: flex;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20px;
+  justify-content: center;
+  margin-top: 15px;
 }

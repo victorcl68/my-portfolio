@@ -1,36 +1,57 @@
+import React from 'react';
 import './App.css';
-import photoOfMySelf from './photoOfMySelf.jpg'
+import photoOfMySelf from './photoOfMySelf.jpg';
 
 function App() {
   return (
-    <div>
-      <h1 id="title">Victor Cabrera Lopes Cardoso</h1>
-      <h2 id="subtitle">Desde pequeno apaixonado por Tecnologia. <br/> Estudo Desenvolvimento Web na Trybe. <br/> Tenho conhecimento em React.js <br/> e um nível de Inglês Intermediário. <br/> Acredito e trabalho para poder fazer diferença positiva na vida das pessoas.</h2>
-      <div id="image">
-        <img id="my-photo" src={photoOfMySelf} alt="Photography of myself" />
+    <main>
+      <div className="text-content">
+        <h1 id="title">Victor Cabrera Lopes Cardoso</h1>
+        <h2 id="subtitle">
+          Desde pequeno apaixonado por tecnologia estudo desenvolvimento web na Trybe.
+          <br />
+          Tenho conhecimento em React.js e um nível de inglês intermediário.
+          <br />
+          Acredito e trabalho para poder fazer diferença positiva na vida das pessoas.
+        </h2>
+        <section id="uls">
+          <ul id="abilities">
+            <h2 className="title-ul"> Principais Habilidades </h2>
+            <li className="item"> React.js | Redux | Hooks </li>
+            <li className="item"> React Testing Library </li>
+            <li className="item"> DOM | JavaScript ES6 </li>
+            <li className="item"> Testes Unitários </li>
+            <li className="item"> Bash | Unix </li>
+            <li className="item"> Git | Github </li>
+            <li className="item"> CSS | HTML </li>
+          </ul>
+          <ul id="projects">
+            <h2 className="title-ul"> Projetos </h2>
+            <li><a href="https://victorcl68.github.io/to-do-list/" target="_blank" rel="noreferrer">
+              <h3 className="item"> To-Do List </h3>
+            </a></li>
+            <li><a href="https://movie-card-crud.herokuapp.com/ " target="_blank" rel="noreferrer">
+              <h3 className="item"> Movie Cards Library </h3>
+            </a></li>
+            <li><a href="https://victorcl68.github.io/pixels-art/" target="_blank" rel="noreferrer">
+              <h3 className="item"> Pixels Art </h3>
+            </a></li>
+            <li><a href="https://victorcl68.github.io/shopping-cart/" target="_blank" rel="noreferrer">
+              <h3 className="item"> Carrinho de Compras </h3>
+            </a></li>
+            <li><a href="https://victorcl68.github.io/lessons-learned/" target="_blank" rel="noreferrer">
+              <h3 className="item"> Lessons learned </h3>
+            </a></li>
+          </ul>
+        </section>
+        <p id="contact">Contato</p>
+        <a className="links" href="https://www.linkedin.com/in/victorclc/">LinkedIn</a>
+        <a className="links" href="mailto:victor.cabrera0209@gmail.com">victor.cabrera0209@gmail.com</a>
       </div>
-      <div id="uls">
-        <ul id="projects">
-          <h2 id="title-projects"> Projetos </h2>
-          <li><a href="https://victorcl68.github.io/project-lessons-learned/" ><h3 className="projectItem"> Lessons learned </h3></a></li>
-          <li><a href="https://victorcl68.github.io/project-pixels-art/" ><h3 className="projectItem"> Pixels Art </h3></a></li>
-          <li><a href="https://victorcl68.github.io/movie-cards-library/" ><h3 className="projectItem"> Movie Cards Library </h3></a></li>
-          <li><a href="https://victorcl68.github.io/project-todo-list/" ><h3 className="projectItem"> To-Do List </h3></a></li>
-        </ul>
-        <ul id="abilities">
-          <h3 id="main-abilities"> Principais Habilidades </h3>
-          <li className="abilitie"> Unix / Bash </li>
-          <li className="abilitie"> Git / Github </li>
-          <li className="abilitie"> HTML / CSS </li>
-          <li className="abilitie"> Testes Unitários </li>
-          <li className="abilitie"> JavaScript ES6 Básico / DOM </li>
-        </ul>
-      </div>
-      <p id="contact">Contato</p>
-      <p className="linkedin"><a className="linkedin" href="https://www.linkedin.com/in/victorclc/"> LinkedIn </a></p>
-      <p id="email"> E-Mail: </p>
-      <p id="gmail"> victor.cabrera0209@gmail.com </p>
-    </div>
+      <section id="image">
+        <img id="my-photo" src={ photoOfMySelf } alt="Photography of myself" />
+      </section>
+    </main>
   );
 }
 
