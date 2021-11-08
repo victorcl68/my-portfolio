@@ -30,7 +30,7 @@ function App() {
             <li><a href="https://victorcl68.github.io/to-do-list/" target="_blank" rel="noreferrer">
               <h3 className="item"> To-Do List </h3>
             </a></li>
-            <li><a href="https://movie-card-crud.herokuapp.com/ " target="_blank" rel="noreferrer">
+            <li><a href="https://movie-card-library.herokuapp.com/ " target="_blank" rel="noreferrer">
               <h3 className="item"> Movie Cards Library </h3>
             </a></li>
             <li><a href="https://victorcl68.github.io/pixels-art/" target="_blank" rel="noreferrer">
