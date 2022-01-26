@@ -41,9 +41,6 @@ function App() {
               <li><a href="https://project-recipes-app.herokuapp.com/" target="_blank" rel="noreferrer">
                 <h3 className="item"> Recipe App </h3>
               </a></li>
-              <li><a href="https://movie-card-library.herokuapp.com/" target="_blank" rel="noreferrer">
-                <h3 className="item"> Movie Cards Library </h3>
-              </a></li>
           </ul>
         </section>
         <p id="contact">Contato</p>
